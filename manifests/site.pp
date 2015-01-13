@@ -57,6 +57,12 @@ node default {
   include git
   include hub
   include nginx
+  include dropbox
+  include chrome
+  include java
+  include firefox
+  include vlc
+  include spotify
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

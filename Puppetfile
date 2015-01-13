@@ -60,3 +60,11 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "autojump"
+github "chrome"
+github "firefox"
+github "java"
+github "vlc"
+github "spotify"
+
