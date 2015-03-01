@@ -2,7 +2,7 @@ class people::chris::applications::gems {
 
   notify { 'class people::chris::applications::gems declared': }
 
-  $version = "2.2.0"
+  $version = "2.1.2"
 
   ruby::gem {
     "sass for ${version}":
