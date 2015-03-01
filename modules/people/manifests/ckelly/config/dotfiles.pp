@@ -1,4 +1,4 @@
-class people::chris::config::dotfiles {
+class people::ckelly::config::dotfiles {
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/.dotfiles"
 

@@ -1,5 +1,5 @@
 # OSX defaults module
-class people::chris::config::osx_defaults {
+class people::ckelly::config::osx_defaults {
 
   include osx::finder::show_all_on_desktop
   include osx::no_network_dsstores

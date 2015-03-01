@@ -1,6 +1,6 @@
-class people::chris::applications::gems {
+class people::ckelly::applications::gems {
 
-  notify { 'class people::chris::applications::gems declared': }
+  notify { 'class people::ckelly::applications::gems declared': }
 
   $version = "2.1.2"
 

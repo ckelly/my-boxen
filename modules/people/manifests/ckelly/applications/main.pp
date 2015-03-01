@@ -1,4 +1,4 @@
-class people::chris::applications::main {
+class people::ckelly::applications::main {
   include dropbox
   include chrome
   include java

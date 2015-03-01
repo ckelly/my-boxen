@@ -1,7 +1,7 @@
-class people::chris::files (
-  $my_sourcedir   = $people::chris::params::my_sourcedir,
-  $my_homedir     = $people::chris::params::my_homedir,
-  $my_username    = $people::chris::params::my_username
+class people::ckelly::files (
+  $my_sourcedir   = $people::ckelly::params::my_sourcedir,
+  $my_homedir     = $people::ckelly::params::my_homedir,
+  $my_username    = $people::ckelly::params::my_username
 ) {
 
   file { "${my_homedir}/bin":

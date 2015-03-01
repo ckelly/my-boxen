@@ -1,4 +1,4 @@
-class people::chris::config::python_dev {
+class people::ckelly::config::python_dev {
   require python
 
   include pkgconfig

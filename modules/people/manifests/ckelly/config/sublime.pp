@@ -1,4 +1,4 @@
-class people::chris::config::sublime{
+class people::ckelly::config::sublime{
 
   include sublime_text
 
