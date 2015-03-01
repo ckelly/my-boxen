@@ -9,14 +9,6 @@
 
 # See https://github.com/boxen/puppet-ruby for docs
 ruby::global::version: "2.2.0"
-ruby::rbenv_plugins:
-  rbenv-vars:
-    ensure: v1.0.0
-    source: sstephenson/rbenv-vars
-  ruby-build:
-    ensure: v20131225.1
-    source: sstephenson/ruby-build
-
 
 # See https://github.com/boxen/puppet-java for docs
 java::update_version: 51
