@@ -19,8 +19,8 @@ class people::ckelly::config::osx_defaults {
 
   class { 'osx::dock::hot_corners':
     top_right => "Application Windows",
-    top_left => "Desktop"
-    bottom_left => "Put Display To Sleep"
+    top_left => "Desktop",
+    bottom_left => "Put Display to Sleep"
   }
 
   osx::recovery_message { 'Hard drive is encrypted. If this Mac is found, please call 508-904-8403': }
